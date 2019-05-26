@@ -9,7 +9,7 @@ class Menu7 extends StatefulWidget {
 class _Menu7State extends State<Menu7> {
   FlutterWebviewPlugin objWebview = FlutterWebviewPlugin();
   static String url =
-      "https://rode.com";
+      "https://gkrgroup.co.th/privacy/drsant.htm";
 
   @override
   void initState() {
@@ -33,7 +33,7 @@ class _Menu7State extends State<Menu7> {
       withLocalStorage: true,
       withZoom: true,
       appBar: AppBar(
-        title: Text('RODE MIC'),
+        title: Text('Privacy Policy'),
       ),
     );
   }

@@ -13,8 +13,8 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  String title1 = 'GKRGROUP';
-  String title2 = 'บริษัท.จี.เค.อาร์.กรุ๊ป จำกัด';
+  String title1 = 'DRSANT';
+  String title2 = 'หมอสันต์';
 
   Widget showTitle() {
     return Text(
@@ -69,10 +69,10 @@ class _HomeState extends State<Home> {
               size: 32.0,
             ),
             title: Text(
-              'GKRSHOP',
+              'BLOG',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('สั่งสินค้า'),
+            subtitle: Text('ตอบปัญหาสุขภาพ'),
             onTap: () {
               Navigator.of(context).pop();
               var menu1Route =
@@ -86,10 +86,10 @@ class _HomeState extends State<Home> {
               color: Colors.blueGrey[900],size: 32.0,
             ),
             title: Text(
-              'RME',
+              'โภชนาการ',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('ระบบบันทึกเสียง'),
+            subtitle: Text('คลิปวีดีโอเรื่องอาหารสุขภาพ'),
             onTap: () {
               Navigator.of(context).pop();
               var menuRoute =
@@ -103,10 +103,10 @@ class _HomeState extends State<Home> {
               color: Colors.blueGrey[900],size: 32.0,
             ),
             title: Text(
-              'STUDIOLOGIC',
+              'การออกกำลังกาย',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('คีย์บอร์ดและซินธีไซด์เซอร์'),
+            subtitle: Text('คลิปวีดีโอเรื่องการออกกำลังกาย'),
             onTap: () {
               Navigator.of(context).pop();
               var menuRoute =
@@ -120,10 +120,10 @@ class _HomeState extends State<Home> {
               color: Colors.blueGrey[900],size: 32.0,
             ),
             title: Text(
-              'GKR CHANNEL',
+              'การจัดการความเตรียด',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('ช่องวีดีโอ '),
+            subtitle: Text('คลิปวีดีโอเรื่องการจัดการกับความเครียด '),
             onTap: () {
               Navigator.of(context).pop();
               var menuRoute =
@@ -137,10 +137,10 @@ class _HomeState extends State<Home> {
               color: Colors.blueGrey[900],size: 32.0,
             ),
             title: Text(
-              'GKRGROUP ',
+              'Wellness We care ',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('เวปไซด์'),
+            subtitle: Text('เวปไซด์ Wellness We care'),
             onTap: () {
               Navigator.of(context).pop();
               var menuRoute =
@@ -154,10 +154,10 @@ class _HomeState extends State<Home> {
               color: Colors.blueGrey[900],size: 32.0,
             ),
             title: Text(
-              'SPL',
+              'facebook',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('พรีไมค์,โพเซสเซอร์'),
+            subtitle: Text('เฟสบุ๊ค Wellness we care'),
             onTap: () {
               Navigator.of(context).pop();
               var menuRoute =
@@ -171,10 +171,10 @@ class _HomeState extends State<Home> {
               color: Colors.blueGrey[900],size: 32.0,
             ),
             title: Text(
-              'RODE',
+              'Privacy Policy',
               style: TextStyle(fontSize: 18.0),
             ),
-            subtitle: Text('ไมโครโฟน'),
+            subtitle: Text('Privacy Policy'),
             onTap: () {
               Navigator.of(context).pop();
               var menuRoute =
@@ -208,7 +208,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('GKRGROUP'),
+        title: Text('หมอสันต์'),
       ),
       body: Container(
         child: showContent(),

@@ -9,7 +9,7 @@ class Menu4 extends StatefulWidget {
 class _Menu4State extends State<Menu4> {
   FlutterWebviewPlugin objWebview = FlutterWebviewPlugin();
   static String url =
-      "https://www.youtube.com/playlist?list=PLH4h6lsHjCi_xQKQrsWTDkKNi-O3csWIl";
+      "https://www.youtube.com/playlist?list=PLeb-fy9jWXiMYzibUQZ8vDm-OiWRapSOs";
 
   @override
   void initState() {
@@ -33,7 +33,7 @@ class _Menu4State extends State<Menu4> {
       withLocalStorage: true,
       withZoom: true,
       appBar: AppBar(
-        title: Text('GKRGROUP CHANNEL'),
+        title: Text('การจัดการความเครียด'),
       ),
     );
   }
