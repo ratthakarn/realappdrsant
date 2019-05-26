@@ -195,10 +195,7 @@ class _HomeState extends State<Home> {
           child: Image.asset('images/bannerflutter.jpg'),
         ),
   
-      Container(
-          margin: EdgeInsets.all(0.0),
-          child: Image.asset('images/template.jpg'),
-        ),    
+     
 
       ],
     );
